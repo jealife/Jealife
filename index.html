@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modal 1</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="nav.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="galery.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="modal-background" onclick="toggleModal()">
+    </div>
+    <div class="modal" id="myModal">
+      <div class="navbar">
+        <a href="#sec1" id="link" class="animate__animated ">Home</a>
+        <a href="#" id="link" class="animate__animated ">About</a>
+        <a href="#" id="link" class="animate__animated ">Skills</a>
+        <a href="#" id="link" class="animate__animated ">Portfolio</a>
+        <a href="#" id="link" class="animate__animated ">Contact</a>
+      </div>
+    </div>
+    <nav class="nav-container nav">
+      <div class="nav-icon">
+        <a href="#" aria-label="Visite Home Page" aria-current="page">
+          <!-- <img src="TastyTales.png" alt="logo TastyTales" width="50px"> -->
+          JEaLiFe
+        </a>
+      </div>
+      <div class="main-navlinks">
+        <div class="translate-icon traduction">
+          <a href="#"><ion-icon name="globe-outline"></ion-icon></a>
+        </div>
+        <button onclick="toggleModal()" class="hamburger" type="button" aria-label="Toggle navigation"
+          aria-expanded="false">
+          <span></span>
+          <span class="sp2"></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <main class="main">
+    <div id="galerie">
+      <div class="title">
+        <h1>
+          JEaLiFe  Pictures
+        </h1>
+      </div>
+      <ul class="galery">
+        <li><img src="castle.jpg" alt=""></li>
+        <li><img src="fuji.jpg" alt=""></li>
+        <li><img src="bamboos.jpg" alt=""></li>
+        <li><img src="lights.jpg" alt=""></li>
+        <li><img src="porte.jpg" alt=""></li>
+        <li><img src="store.jpg" alt=""></li>
+        <li><img src="bamboos.jpg" alt=""></li>
+        <li><img src="castle.jpg" alt=""></li>
+        <li><img src="fuji.jpg" alt=""></li>
+        <li><img src="lights.jpg" alt=""></li>
+        <li><img src="porte.jpg" alt=""></li>
+        <li><img src="store.jpg" alt=""></li>
+        <li><img src="bamboos.jpg" alt=""></li>
+        <li><img src="castle.jpg" alt=""></li>
+        <li><img src="fuji.jpg" alt=""></li>
+        <li><img src="lights.jpg" alt=""></li>
+        <li><img src="porte.jpg" alt=""></li>
+        <li><img src="store.jpg" alt=""></li>
+        <li><img src="bamboos.jpg" alt=""></li>
+        <li><img src="castle.jpg" alt=""></li>
+        <li><img src="fuji.jpg" alt=""></li>
+        <li><img src="lights.jpg" alt=""></li>
+        <li><img src="porte.jpg" alt=""></li>
+        <li><img src="store.jpg" alt=""></li>
+        <li><img src="lights.jpg" alt=""></li>
+      </ul>
+    </div>
+  </main>
+  <footer class="footer display-flex ">
+    <div class="items">
+
+      <div class="social">
+        <a href="www.facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a>
+        <a href="https://www.instagram.com/jealife_pictures/?igshid=12tbfqazjltoy&hl=fr"><i
+            class="fa-brands fa-instagram fa-xl"></i></a>
+        <a href="mailto: jealife.pictures@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+      </div>
+      <div class="copy-right">
+        <span>&copy; 2023 JEaLiFe Pictures</span>
+      </div>
+  
+  
+    </div>
+  </footer>
+  
+
+  <script>
+  </script>
+  <script src="nav.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

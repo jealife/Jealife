@@ -1,0 +1,21 @@
+.main{
+    display: grid;
+    place-items: center;
+}
+
+.title{
+    max-width: 1100px;
+    margin: 5rem auto 2rem auto ;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.title h1{
+    font-weight: 800;
+    font-size: 3rem;
+    color: #302d38;
+    color: #fff;
+
+}
